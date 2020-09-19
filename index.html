@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Chocolate Pizza</title>
 </head>
@@ -21,20 +22,33 @@
             <img src="images/gp-icon.png" alt="google plus">
             <img src="images/insta-icon.png" alt="instagram">
             <img src="images/flic-icon.png" alt="flic">
-            <img src="images/pint-icon.png" alt="pint"> &nbsp;
+            <img src="images/pint-icon.png" alt="pint"> 
+            &nbsp;
             <img src="images/rss-icon.png" alt="wireless">
             <img src="images/mail-icon.png" alt="mail">
         </div>
     </header>
+
     <img class="hr" src="images/hr-img.png" alt="hr">
+
     <main>
-        <section>
-            <h1>Chocolate Pizza</h1>
-            <p>POSTED ON 15 DEC 2013 / DESSERTS</p>
-            <span><img src="images/print-icon.png" alt="print icon"> &nbsp; PRINT</span>
+        <section id="sec1">
+            <div class="left">
+                <h1>Chocolate Pizza</h1>
+                <p>POSTED ON 15 DEC 2013 / DESSERTS</p>
+            </div>
+            <div class="right">
+                <img src="images/print-icon.png" alt="print icon">
+                &nbsp;
+                PRINT
+            </div>
         </section>
+
+        <section id="pic">
+            <img src="images/choco-pizza.png" alt="choco pizza">
+        </section>
+
         <section id="sec2">
-            <img src="images/choco-pizza.png" alt="choco-pizza">
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus laboriosam repellat aut dolorem
                 hic soluta corrupti commodi? Maiores quia saepe aut ad sit praesentium dolor accusamus! Quaerat quasi
                 maiores ut?
@@ -66,6 +80,7 @@
                 maiores ut?
             </p>
         </section>
+
         <section id="sec3">
             <form>
                 <div id="left">
@@ -78,34 +93,39 @@
                 </div>
                 <div id="right">
                     <input type="checkbox"> 11/2 cups heavy cream <br>
-                    <input type="checkbox" class="line-through" value=active> 1/3 granulated suger <br>
-                    <input type="checkbox" class="line-through" value=active> 2 egg yolks <br>
+                    <input type="checkbox" checked><del> 1/3 granulated suger </del><br>
+                    <input type="checkbox" checked><del> 2 egg yolks</del> <br>
                     <input type="checkbox"> 1 lemon, juiced <br>
                     <input type="checkbox"> 2 tbsp butter <br>
                     <input type="checkbox"> 1 cup honey roasted pecans, roughly chopped <br>
                 </div>
             </form>
-            <img class="hr" src="images/hr-img.png" alt="horizantal line">
         </section>
+
+        <img class="hr" src="images/hr-img.png" alt="horizantal line">
+
         <section id="sec4">
-        
+            <div id="left">
             <img src="images/van-pic.png" alt="van">
             <h3>Vanessa Stevenson</h3>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, incidunt molestiae dolorum quasi dicta offi
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, incidunt molestiae dolorum quasi dicta offi
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, incidunt molestiae dolorum quasi dicta
+                offi
             </p>
-        
+        </div>
+        <!-- <div id="right">  -->
             <button>SHARE RECIPE</button>
+        <!-- </div> -->
         </section>
     </main>
+
     <footer>
-        <hr>
+        <hr id="hr1">
         <img src="images/small-logo.png" alt="logo">
         <hr id="hr2">
-        
         <p>Delicious &copy; 2013 . All Rights Reserved.</p>
         <p>Proudly published with Ghost.</p>
     </footer>
+    
 </body>
-
 </html>
